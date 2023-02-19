@@ -1,0 +1,4 @@
+name: awakening-prison-art
+recipe: wordpress
+config:
+  webroot: ./app/public

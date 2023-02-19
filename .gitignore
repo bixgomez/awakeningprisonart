@@ -1,7 +1,10 @@
 # ignore all "Local by Flywheel" stuff.
-app
-conf
-logs
+/conf
+/logs
+
+# ignore personal resources.
+/__resources
+/.idea
 
 # ignore everything in the root except the "wp-content" directory.
 !wp-content/
