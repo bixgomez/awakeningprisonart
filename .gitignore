@@ -37,3 +37,6 @@ node_modules/
 *.sql
 *.sqlite
 *.sql.gz
+
+# Project-specific ignores.
+/app/public/images/
