@@ -13,5 +13,4 @@
 */
 body {
 	@apply bg-background text-foreground font-sans;
-	background-color: #ccc;
 }
