@@ -23,6 +23,9 @@
 <?php wp_body_open(); ?>
 
 <div id="page">
+
+  <h1 class="font-bold">HEY THERE</h1>
+
 	<a href="#content" class="sr-only"><?php esc_html_e( 'Skip to content', 'prisonart_tw' ); ?></a>
 
 	<?php get_template_part( 'template-parts/layout/header', 'content' ); ?>
