@@ -12,5 +12,69 @@
  * editor.
 */
 body {
-	@apply bg-background text-foreground font-sans;
+	@apply bg-background text-foreground bg-[#006667] font-sans;
+}
+
+#page {
+	@apply my-8 mx-auto w-11/12 bg-white p-6;
+
+	@media (min-width: 768px) {
+		@apply w-[728px];
+	}
+
+	@media (min-width: 960px) {
+		@apply w-[920px];
+	}
+}
+
+img.alignleft {
+	float: left;
+	margin: 0 35px 10px 0;
+}
+
+img.alignright {
+	float: right;
+	margin: 0 0 10px 35px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply mb-0.5 text-[#006667];
+}
+
+p {
+	@apply mb-5 text-base;
+}
+
+h1 {
+	@apply text-3xl font-bold;
+
+	&.site-title {
+		@apply text-3xl font-extralight lowercase;
+	}
+}
+
+h2 {
+	@apply text-lg font-bold lowercase;
+}
+
+h3 {
+	@apply text-lg font-bold lowercase;
+}
+
+.teaser {
+	display: flex;
+	grid-gap: 2rem;
+}
+
+.teaser-image {
+	width: 33%;
+}
+
+.teaser-text {
+	width: 66%;
 }

@@ -1,12 +1,13 @@
 // Set Preflight flag and Tailwind Typography class name based on the build
 // target.
-let includePreflight, typographyClassName;
+let includePreflight, typographyClassName
+
 if ('editor' === process.env._TW_TARGET) {
-	includePreflight = false;
-	typographyClassName = 'block-editor-block-list__layout';
+	includePreflight = false
+	typographyClassName = 'block-editor-block-list__layout'
 } else {
-	includePreflight = true;
-	typographyClassName = 'prose';
+	includePreflight = true
+	typographyClassName = 'prose'
 }
 
 module.exports = {
@@ -42,4 +43,4 @@ module.exports = {
 		// require( '@tailwindcss/line-clamp' ),
 		// require( '@tailwindcss/container-queries' ),
 	],
-};
+}
