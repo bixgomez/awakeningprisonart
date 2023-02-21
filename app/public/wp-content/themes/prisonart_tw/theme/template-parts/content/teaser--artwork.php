@@ -21,6 +21,7 @@ echo '<div class="teaser pt-6 mb-6 border-t border-[#006667]">';
     echo '<h1 class="teaser-title text-foreground text-lg">' . $title . '</h1>';
     echo '<p class="teaser-dimensions text-foreground">' . $dimensions . '</p>';
     echo '<p class="teaser-description text-foreground">' . $description . '</p>';
+    echo '<p class="teaser-description text-foreground"><i>Click on the image to enlarge it.</i></p>';
     ?>
     <div class="purchase-info">
       To purchase this piece, please send an email to 
