@@ -66,6 +66,10 @@ h3 {
 	@apply text-lg font-bold lowercase;
 }
 
+a {
+	@apply text-[#006667];
+}
+
 .teaser {
 	display: flex;
 	grid-gap: 2rem;
@@ -77,4 +81,8 @@ h3 {
 
 .teaser-text {
 	width: 66%;
+}
+
+.purchase-info {
+	@apply text-sm;
 }
