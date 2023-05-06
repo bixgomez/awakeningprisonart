@@ -71,7 +71,7 @@ h3 {
 }
 
 a {
-	@apply font-bold text-[#7500EB] underline;
+	@apply font-semibold text-[#7500EB] underline;
 
 	&:hover {
 		@apply text-[#9C38FF];

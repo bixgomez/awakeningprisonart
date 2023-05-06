@@ -244,7 +244,7 @@ h3 {
 }
 
 a {
-  font-weight: 700;
+  font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(117 0 235 / var(--tw-text-opacity));
   text-decoration-line: underline;
@@ -282,40 +282,6 @@ a:hover {
  * line). This is meant to simplify the process of integrating styles from
  * JavaScript components or WordPress plugins.
  */
-
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
 
 .block-editor-block-list__layout {
   color: var(--tw-prose-body);
@@ -866,11 +832,6 @@ a:hover {
   visibility: visible;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -904,11 +865,6 @@ a:hover {
 .text-foreground {
   --tw-text-opacity: 1;
   color: rgb(64 64 64 / var(--tw-text-opacity));
-}
-
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 /**
