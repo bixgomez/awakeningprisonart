@@ -31,22 +31,8 @@
 		</nav>
 	<?php endif; ?>
 
-	<div>
-		<?php
-		$prisonart_tw_blog_info = get_bloginfo( 'name' );
-		if ( ! empty( $prisonart_tw_blog_info ) ) :
-			?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>,
-			<?php
-		endif;
-
-		/* translators: 1: WordPress link, 2: WordPress. */
-		printf(
-			'<a href="%1$s">proudly powered by %2$s</a>.',
-			esc_url( __( 'https://wordpress.org/', 'prisonart_tw' ) ),
-			'WordPress'
-		);
-		?>
+	<div class="text-center">
+			&copy;<?php echo date_i18n( 'Y' );?> <?php echo get_bloginfo( 'name' );?>
 	</div>
 
 </footer><!-- #colophon -->

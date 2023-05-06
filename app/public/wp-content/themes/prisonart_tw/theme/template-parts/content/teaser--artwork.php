@@ -25,7 +25,7 @@ echo '<div class="teaser pt-6 mb-6 border-t border-[#006667]">';
     ?>
     <div class="purchase-info">
       To purchase this piece, please send an email to 
-      <a href="mailto:deansluyter@gmail.com">deansluyter@gmail.com</a>, 
+      <a href="mailto:dean@deansluyter.com">dean@deansluyter.com</a>, 
       specifying the name of the piece <i>("<?php echo $title; ?>")</i>,
       the price you would like to pay for it, your mailing address, and 
       any additional comments or questions.  You will be billed via PayPal.

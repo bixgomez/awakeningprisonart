@@ -216,17 +216,23 @@ h1 {
 }
 
 h1.site-title {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: 200;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
   text-transform: lowercase;
 }
 
+h1.teaser-title {
+  --tw-text-opacity: 1;
+  color: rgb(0 130 133 / var(--tw-text-opacity));
+}
+
 h2 {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
   text-transform: lowercase;
+  font-style: italic;
 }
 
 h3 {
@@ -234,11 +240,19 @@ h3 {
   line-height: 1.75rem;
   font-weight: 700;
   text-transform: lowercase;
+  font-style: italic;
 }
 
 a {
+  font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(0 102 103 / var(--tw-text-opacity));
+  color: rgb(117 0 235 / var(--tw-text-opacity));
+  text-decoration-line: underline;
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(156 56 255 / var(--tw-text-opacity));
 }
 
 .teaser {
@@ -268,6 +282,40 @@ a {
  * line). This is meant to simplify the process of integrating styles from
  * JavaScript components or WordPress plugins.
  */
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
 
 .block-editor-block-list__layout {
   color: var(--tw-prose-body);
@@ -818,6 +866,11 @@ a {
   visibility: visible;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -839,6 +892,10 @@ a {
   padding-top: 1.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -847,6 +904,11 @@ a {
 .text-foreground {
   --tw-text-opacity: 1;
   color: rgb(64 64 64 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 /**

@@ -54,20 +54,28 @@ h1 {
 	@apply text-3xl font-bold;
 
 	&.site-title {
-		@apply text-3xl font-extralight lowercase;
+		@apply text-4xl font-bold lowercase;
+	}
+
+	&.teaser-title {
+		@apply text-[#008285];
 	}
 }
 
 h2 {
-	@apply text-lg font-bold lowercase;
+	@apply text-xl font-bold lowercase italic;
 }
 
 h3 {
-	@apply text-lg font-bold lowercase;
+	@apply text-lg font-bold lowercase italic;
 }
 
 a {
-	@apply text-[#006667];
+	@apply font-bold text-[#7500EB] underline;
+
+	&:hover {
+		@apply text-[#9C38FF];
+	}
 }
 
 .teaser {
