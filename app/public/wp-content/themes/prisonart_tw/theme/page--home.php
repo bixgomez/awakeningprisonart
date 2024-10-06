@@ -29,6 +29,7 @@ get_header();
 					$the_query->the_post();
 					get_template_part( 'template-parts/content/teaser--artwork', 'artwork-teaser',
 						array(
+							'post_id' => get_the_ID(),
 							'title' => get_the_title(),
 							'dimensions' => get_field('dimensions'),
 							'description' => get_field('description'),
