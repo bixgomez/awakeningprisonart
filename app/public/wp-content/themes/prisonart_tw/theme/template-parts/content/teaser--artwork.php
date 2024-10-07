@@ -21,7 +21,7 @@ $imgurl = dirname( $parsed [ 'path' ] ) . '/' . rawurlencode( basename( $parsed[
     <p class="teaser-description text-foreground"><i>Click on the image to enlarge it.</i></p>
     <div class="purchase-info">
       To purchase this piece, please send an email to 
-      <a href="mailto:dean@deansluyter.com">dean@deansluyter.com</a>, 
+      <a href="mailto:deansluyter@gmail.com">deansluyter@gmail.com</a>, 
       specifying the name of the piece <i>("<?php echo $title; ?>")</i>,
       the price you would like to pay for it, your mailing address, and 
       any additional comments or questions.  You will be billed via PayPal.
