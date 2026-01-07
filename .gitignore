@@ -40,3 +40,4 @@ node_modules/
 
 # Project-specific ignores.
 /app/public/images/
+._*
