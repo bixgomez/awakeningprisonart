@@ -1,6 +1,6 @@
 name: awakeningprisonart
 type: wordpress
-docroot: ./app/public
+docroot: ./web
 php_version: "8.3"
 webserver_type: nginx-fpm
 xdebug_enabled: false
