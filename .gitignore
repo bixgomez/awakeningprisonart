@@ -6,28 +6,31 @@
 /__resources
 /.idea
 
-# Standard WordPress ignores.
-/app/public/.htaccess
-/app/public/license.txt
-/app/public/readme.html
-/app/public/sitemap.xml
-/app/public/sitemap.xml.gz
-/app/public/*.log
-/app/public/wp-config.php
-/app/public/wp-content/advanced-cache.php
-/app/public/wp-content/backup-db/
-/app/public/wp-content/backups/
-/app/public/wp-content/blogs.dir/
-/app/public/wp-content/cache/
-/app/public/wp-content/upgrade/
-/app/public/wp-content/uploads/
-/app/public/wp-content/mu-plugins/
-/app/public/wp-content/endurance-page-cache/
-/app/public/wp-content/wp-cache-config.php
-/app/public/wp-content/plugins/hello.php
+# Standard WordPress ignores (web/ directory).
+/web/.htaccess
+/web/license.txt
+/web/readme.html
+/web/sitemap.xml
+/web/sitemap.xml.gz
+/web/*.log
+/web/wp-content/advanced-cache.php
+/web/wp-content/backup-db/
+/web/wp-content/backups/
+/web/wp-content/blogs.dir/
+/web/wp-content/cache/
+/web/wp-content/upgrade/
+/web/wp-content/uploads/
+/web/wp-content/mu-plugins/
+/web/wp-content/endurance-page-cache/
+/web/wp-content/wp-cache-config.php
+/web/wp-content/plugins/hello.php
+
+# Environment-specific config files (contain credentials, not for version control).
+/web/wp-config-ddev.php
+/web/wp-config-env.php
 
 # ignore specific themes
-/app/public/wp-content/themes/twenty*/
+/web/wp-content/themes/twenty*/
 
 # ignore node dependency directories
 node_modules/
@@ -39,5 +42,5 @@ node_modules/
 *.sql.gz
 
 # Project-specific ignores.
-/app/public/images/
+/web/images/
 ._*
