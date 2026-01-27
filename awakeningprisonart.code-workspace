@@ -6,7 +6,9 @@
   ],
   "settings": {
     "intelephense.environment.phpVersion": "8.3",
-    "php.version": "8.3"
+    "php.version": "8.3",
+    "workbench.colorTheme": "Darcula Storm",
+    "workbench.iconTheme": "vs-seti"
   },
   "launch": {
     "configurations": [
