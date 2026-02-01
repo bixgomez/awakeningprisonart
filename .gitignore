@@ -44,3 +44,4 @@ node_modules/
 # Project-specific ignores.
 /web/images/
 ._*
+wp-config.php
