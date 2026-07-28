@@ -1,0 +1,7 @@
+# Plugins/themes excluded from automatic updates on THIS site.
+# One slug per line. Read by ~/bin/update-sites.sh.
+#
+# Licensed product: reports updates but needs a valid key, so automation would
+# either fail nightly or silently no-op. Reported as "MANUAL UPDATE NEEDED".
+
+advanced-custom-fields-pro
